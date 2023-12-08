@@ -32,7 +32,7 @@ jobs:
           cp -r ./build ../server/public
       - run: |
           cd mern/server
-          zip -r ../mern-app.zip *
+          zip -r ../../mern-app.zip *
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
